@@ -1,72 +1,38 @@
-# Group 12
+# Grocery Store Software System
 
-For our McGill ECSE 321: Introduction to Software Engineering course. <br>
-We are a student team composed of 6 members: Wassim jabbour, Habib Jarweh, Theo Ghanem, Chris Hatoum, Philippe Sarouphim Hochar, and Enzo Benoit-Jeannin. Our project consists of developing the Grocery Store Software System (GSSS) for a grocery store to support their customers, owner and employees. All functionnalities of the system are available via a web interface deployed [here](https://grocerystore-frontend.herokuapp.com/) that is based on a backend deployed [here](https://grocerystore-backend.herokuapp.com/). Furthermore, the android code can be found on the orphan branch "Android", and the app can be installed or emulated on any android mobile device using AndroidStudio.
-<br><br>
-Demo of all the features on both the website and the android application: https://www.youtube.com/watch?v=CsE2xNE7Ep4
-<br><br>
-Business proposal slides: https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/blob/main/Presentation.pdf
+## Introduction
 
-  ***
-**Deliverable 1:**
-| Name                      |     Team Role                 | Individual efforts |
-|---------------------------|-------------------------------|--------------------|
-| Enzo Benoit-Jeannin       | Testing & Recording           |      30 hours      |
-| Wassim Jabbour            | Managing & Testing & Modeling |      40 hours      |
-| Philippe Sarouphim Hochar | Reviewing & Testing & Modeling|      35 hours      |
-| Habib Jarweh              | Testing & Modeling            |      33 hours      |
-| Theo Ghanem               | Testing & Recording           |      33 hours      |
-| Chris Hatoum              | Testing & Documenting         |      28 hours      |
-  
-  <ins>Figure 1: Overview Table for deliverable 1</ins>
-  
-  Project Report: https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/wiki/Deliverable-1:-Report
+In this project for the McGill ECSE 321: Introduction to Software Engineering course, our team of six students has developed a comprehensive Grocery Store Software System (GSSS) to support a local grocery store in managing interactions with customers, employees, and the store owner. The GSSS enables customers to browse and order food items, household goods, and ready-made food online for delivery or pickup through a web interface and a mobile application.
 
-***
-**Deliverable 2:**
-| Name                      |               Team Role                    | Individual efforts |
-|---------------------------|--------------------------------------------|--------------------|
-| Enzo Benoit-Jeannin       | Testing & Writing controllers & Recording  |      37 hours      |
-| Wassim Jabbour            | Managing & Testing & Writing controllers   |      45 hours      |
-| Philippe Sarouphim Hochar | Reviewing & Testing & Writing controllers  |      40 hours      |
-| Habib Jarweh              | Testing & Writing controllers & Recording  |      37 hours      |
-| Theo Ghanem               | Testing & Writing controllers & Documenting|      37 hours      |
-| Chris Hatoum              | Testing & Writing controllers & Documenting|      37 hours      |
-  
-  <ins>Figure 2: Overview Table for deliverable 2</ins>
-  
-   Project Report: https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/wiki/Deliverable-2:-Report
-   
-   
+The system supports account creation for customers either through the web and app interfaces or through store employees. While local customers enjoy free delivery, those outside the town limits are charged a delivery fee. Pickup orders incur no service fee. Store management functionalities, including scheduling, staffing, and operational hours, are exclusive to the store owner, who also possesses all employee privileges.
 
-***
-**Deliverable 3:**
-| Name                      |               Team Role                           | Individual efforts |
-|---------------------------|---------------------------------------------------|--------------------|
-| Enzo Benoit-Jeannin       |Documentation & Writing front end pages & Recording|   35    hours      |
-| Wassim Jabbour            |Managing & Writing front end pages                 |   40    hours      |
-| Philippe Sarouphim Hochar |  Writing front end pages                          |    40   hours      |
-| Habib Jarweh              |  Writing front end pages                          |    33   hours      |
-| Theo Ghanem               | Writing and testing front end pages               |    35   hours      |
-| Chris Hatoum              |   Writing front end pages                         |    33   hours      |
-  
-  <ins>Figure 3: Overview Table for deliverable 3</ins>
-  
-   Project Report: https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/wiki/Deliverable-3:-Report
- 
- 
- 
-***   
-**Deliverable 4:**
-| Name                      |               Team Role                                                | Individual efforts |
-|---------------------------|------------------------------------------------------------------------|--------------------|
-| Enzo Benoit-Jeannin       |Documentation & Adapting web pages to mobile & Editing presentation     |      33   hours      |
-| Wassim Jabbour            |Managing & Adapting web pages to mobile & Presenting the system         |      40 hours      |
-| Philippe Sarouphim Hochar |Documentation & Adapting web pages to mobile                            |      37 hours      |
-| Habib Jarweh              |Documentation & Adapting web pages to mobile                            |      30   hours      |
-| Theo Ghanem               | Adapting web pages to mobile & Presenting the system                   |      40 hours      |
-| Chris Hatoum              |Documentation & Adapting web pages to mobile                            |      30   hours      |
-  
-  <ins>Figure 4: Overview Table for deliverable 4</ins> 
-  
-   Project Report: https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/wiki/Deliverable-4:-Report
+The software is designed with a multi-tier architecture and supports both a web frontend and an Android mobile application, each integrating seamlessly with a backend deployed on Heroku. The backend is accessible via RESTful API calls, ensuring flexible and efficient operations.
+
+## Key Resources
+
+- [Project Wiki](https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/wiki): Contains comprehensive documentation, including meeting minutes, continuous integration notes, user documentation, domain model decisions, requirements and use case diagrams, testing documentation, and REST API documentation.
+- [Business Proposal Slides](https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/blob/main/Presentation.pdf)
+- [Feature Demo Video](https://www.youtube.com/watch?v=CsE2xNE7Ep4) <br>
+[![YOUTUBE VIDEO](https://img.youtube.com/vi/CsE2xNE7Ep4/0.jpg)](https://www.youtube.com/watch?v=CsE2xNE7Ep4)
+
+## System Design and Architecture
+
+### Requirements and Use Cases
+
+The application's functional and non-functional requirements are detailed [here](https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/wiki/Requirements-&-Use-Case-diagrams), with refined use cases that guide the design and development process.
+
+### UML Class Diagram
+
+The UML Class Diagram illustrates the system's structure and is discussed in-depth [here](https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/wiki/Domain-Model).
+
+![GSSS Class Diagram](https://github.com/user-attachments/assets/2efd0781-c1c3-46c8-9ead-b453fa54b4dd)
+
+### REST API Service Endpoints and Testing
+
+Documentation of all RESTful service endpoints and their testing can be found [here](https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/wiki/RESTful-service-endpoints).
+
+### Application Architecture
+
+The final architecture of the GSSS is accessible [here](https://github.com/McGill-ECSE321-Winter2022/project-group-group-12/wiki/Architecture), providing a detailed overview of the system's layout and interaction patterns.
+
+![GSSS Architecture](https://github.com/user-attachments/assets/df69ce90-81a8-4b5b-9669-3032a5f00aa6)
